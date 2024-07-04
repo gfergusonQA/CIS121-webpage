@@ -1,0 +1,167 @@
+/* Author:   Gina Ferguson
+             Date: July 1, 2024
+             Purpose: CS121 Webpage Assignment: Week 2 */
+
+body {
+	background-image: url('Damask-blue.jpg');
+	background-repeat: repeat;
+	background-position: top left;
+	margin: 0;
+	height: auto;
+	font-family: verdana, arial;
+	font-size: 8pt;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; /* ensure full viewport height */
+}
+.wrapper {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto; /* center wrapper */
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+header {
+	background-color: #708090;
+	padding: 10px;
+	text-align: center;
+	z-index: 1000;
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 10px; /* rounded corners */
+	margin-top: 50px;
+}
+header img {
+	max-width: 100%;
+	height: auto;
+}
+.heading-with-video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.heading-video {
+	width: 50px;
+	height: auto;
+	margin-right: 0 10px;
+}
+.footer-video {
+	width: 100px;
+	height: auto;
+	margin: 0 10px auto; /* centering footer videos */
+	display: block;
+}
+.container {
+	margin: 20px 0;
+	padding: 20px;
+	background: #708090;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px; /* rounded corners */
+}
+.container h4 {
+	text-align: left;
+	font-family: fantasy, verdana;
+	font-size: 15pt;
+	color: #ffffff;
+
+}
+.container h1, h2, h3 {
+	text-align: center;
+	font-family: fantasy;
+	font-size: 25pt;
+	color: #6b6366;
+	line-height: 25px;
+/*	margin-bottom: 100px;*/
+}
+ol {
+	list-style-type: lower-alpha;
+}
+img {
+	max-width: 320px;
+	max-height: 320px;
+	width: auto;
+	height: auto;
+	margin: 0 auto; /* center image */
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: blink;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr; /* Single column layout */
+    gap: 13px;
+}
+.nav-header-container {
+	display: flex;
+	padding: 5px;
+	background-color: #708090;
+	justify-content: center;
+	border-radius: 10px; /* rounded corners */
+}
+.nav-header-links-container a {
+	margin: 0 10px; /* space between header links */
+	text-decoration: none;
+	font-size: 12pt;
+	color: #696969;
+	border-radius: 10px; /* rounded corners */
+}
+.nav-header-links-container a:hover {
+	color: #ffffff;
+	text-decoration: line-through;
+}
+.nav-header-links-container {
+	margin: 0 10px; /* space between header links */
+	text-decoration: none; /* removing underline from links */
+	color: black;
+	padding: 1px;
+	background-color: #ffffff;
+	border-radius: 10px; /* rounded corners */
+}
+.heading-with-video,
+.grid-section h1,
+.grid-section h2,
+.grid-section h3,
+.grid-section h4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid-section {
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px; /* rounded corners */
+    align-items: center;
+}
+#section1 {
+    background-color: #d4d4d4;
+}
+
+#section2 {
+    background-color: #d4d4d4;
+}
+#section3 {
+	background-color: #d4d4d4;
+}
+footer {
+	background-color: #708090;
+	padding: 20px;
+	text-align: center;
+	align-items: center
+	margin-top: 20px;
+	border-radius: 10px; /* rounded corners */
+	font-family: fantasy;
+	font-size: 12pt;
+	color: black;
+	min-width: 360px;
+	max-width: 400px;
+	margin-bottom: 40px;
+}
